@@ -1,0 +1,52 @@
+# Swedish-conference venue file. Copy to values-conference.yaml and use the SAME file on every install/upgrade.
+game:
+  requiredLanguage: "en"
+
+registration:
+  mode: "username"
+
+tournament:
+  enabled: true
+
+# Swedish-audience language pools: Scandinavian/Nordic first, non-Latin scripts in Hard.
+difficultyPools: |
+  {
+    "easy": ["sv", "en", "no", "da", "de", "es", "fr", "pl"],
+    "medium": ["sv", "en", "no", "da", "de", "es", "fr", "pl", "fi", "is", "nl", "it", "pt", "tr", "hu"],
+    "hard": ["sv", "en", "no", "da", "de", "es", "fr", "pl", "fi", "is", "nl", "it", "pt", "tr", "hu", "uk", "ar", "zh", "ja", "ko", "th", "hi", "bg", "ka"]
+  }
+
+# Full default copy plus Danish (overriding languageInfo replaces the whole object).
+languageInfo: |
+  {
+    "sk": {"flag": "🇸🇰", "name": "Slovak"},
+    "cs": {"flag": "🇨🇿", "name": "Czech"},
+    "en": {"flag": "🇬🇧", "name": "English"},
+    "pl": {"flag": "🇵🇱", "name": "Polish"},
+    "hu": {"flag": "🇭🇺", "name": "Hungarian"},
+    "de": {"flag": "🇩🇪", "name": "German"},
+    "es": {"flag": "🇪🇸", "name": "Spanish"},
+    "fi": {"flag": "🇫🇮", "name": "Finnish"},
+    "fr": {"flag": "🇫🇷", "name": "French"},
+    "hr": {"flag": "🇭🇷", "name": "Croatian"},
+    "is": {"flag": "🇮🇸", "name": "Icelandic"},
+    "no": {"flag": "🇳🇴", "name": "Norwegian"},
+    "da": {"flag": "🇩🇰", "name": "Danish"},
+    "sr": {"flag": "🇷🇸", "name": "Serbian"},
+    "sl": {"flag": "🇸🇮", "name": "Slovenian"},
+    "bg": {"flag": "🇧🇬", "name": "Bulgarian"},
+    "ka": {"flag": "🇬🇪", "name": "Georgian"},
+    "tr": {"flag": "🇹🇷", "name": "Turkish"},
+    "it": {"flag": "🇮🇹", "name": "Italian"},
+    "pt": {"flag": "🇵🇹", "name": "Portuguese"},
+    "nl": {"flag": "🇳🇱", "name": "Dutch"},
+    "sv": {"flag": "🇸🇪", "name": "Swedish"},
+    "ro": {"flag": "🇷🇴", "name": "Romanian"},
+    "uk": {"flag": "🇺🇦", "name": "Ukrainian"},
+    "ja": {"flag": "🇯🇵", "name": "Japanese"},
+    "ko": {"flag": "🇰🇷", "name": "Korean"},
+    "ar": {"flag": "🇸🇦", "name": "Arabic"},
+    "zh": {"flag": "🇨🇳", "name": "Chinese"},
+    "th": {"flag": "🇹🇭", "name": "Thai"},
+    "hi": {"flag": "🇮🇳", "name": "Hindi"}
+  }

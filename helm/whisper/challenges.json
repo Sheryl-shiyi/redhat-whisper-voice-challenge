@@ -116,7 +116,13 @@
   "sv": [
     "OpenShift är en fantastisk produkt",
     "Red Hat leder inom open source-innovation",
-    "Artificiell intelligens transformerar affärer"
+    "Artificiell intelligens transformerar affärer",
+    "Kubernetes förenklar driftsättning av applikationer",
+    "Containerisering är molnets framtid",
+    "Automatisering frigör tid för innovation",
+    "Molnlösningar ökar effektiviteten",
+    "DevOps förenar utvecklare och drift",
+    "Säkerhet är prioriterat i molnmiljön"
   ],
   "ro": [
     "OpenShift este un produs excelent",
@@ -245,5 +251,16 @@
     "ღრუბლოვანი გადაწყვეტილებები ზრდის ეფექტურობას",
     "DevOps აკავშირებს დეველოპერებსა და ოპერაციებს",
     "უსაფრთხოება პრიორიტეტია ღრუბლოვან გარემოში"
+  ],
+  "da": [
+    "OpenShift er et fantastisk produkt",
+    "Red Hat er førende inden for open source-innovation",
+    "Kunstig intelligens forandrer erhvervslivet",
+    "Kubernetes forenkler udrulning af applikationer",
+    "Containerisering er fremtiden for skyen",
+    "Automatisering frigør tid til innovation",
+    "Cloudløsninger øger effektiviteten",
+    "DevOps forbinder udviklere og drift",
+    "Sikkerhed har høj prioritet i skyen"
   ]
 }
